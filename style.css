@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+    
+}
+
+body {
+    background-color: rgb(117, 135, 129);
+
+     display: flex;
+    justify-content: center; /* horizontal */
+    align-items: center;    /* vertical */
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    margin-top: 40px;
+    background-color: rgb(168, 153, 183);
+    max-width: 600px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.6);
+    border-radius: 5px;
+    
+   
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    align-items: center;
+}
+
+form input [type = "text"]{
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    width: 70%;
+    outline: none;
+    background-color: rgb(252, 227, 227);
+    border-radius: 5px;
+}
+form input[type = "Submit"]{
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    background-color: chocolate;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+   
+
+}
+form input[type = "Submit"]:hover{
+    background-color: rgb(56, 64, 48);
+    transition: all 0.3s ease;
+}
+.icon img{
+    width: 100px;
+    height: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.temp{
+    font-size: 50px;
+    font-weight: 1000px;
+    margin-top: 20px;
+}
+.desc{
+    font-size: 30px;
+    font-weight: 700px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.details>div{
+    font-size: 18px;
+    background-color: seashell;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    align-items: center;
+    flex: 1;
+    min-height: 40px;
+}
+
+#City-Name{
+    width: 400px;
+    height: 40px;
+    font-size: large;
+}
